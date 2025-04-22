@@ -29,12 +29,13 @@ remove a "/*" below to enable one
 	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
 	--reaction-animation: 1;
 	--channels-default: #90969d !important;
-	--background-mentioned: #4d473a !important; /* hsla(38, calc(1 * 96%), 54%, 0.151) !important; */
-	--background-mentioned-hover: #4d4638 !important; /* hsla(38, calc(1 * 96%), 44%, 0.178) !important; */
-	--background-primary: #34363a !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
-	--background-secondary: #303136 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
+	--background-mentioned: #4f493b !important; /* hsla(38, calc(1 * 96%), 54%, 0.151) !important; */
+	--background-mentioned-hover: #4d4639 !important; /* hsla(38, calc(1 * 96%), 44%, 0.178) !important; */
+	--background-primary: #363a3f !important; /* hsl(220, calc(1 * 7%), 23%) !important; */ /* 34363a */
+	--background-secondary: #2f3137 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */ /* 303136 */
 	--brand-experiment: #fff !important;
-	--custom-dark-hover:  #2c2d32;
+	--custom-dark-hover:  #2f2f33 ; /* 2c2d32 343539 */
+	--background-message-hover: #04040512 !important;
 }
 
 .botTagRegular__82f07 {
@@ -44,7 +45,7 @@ remove a "/*" below to enable one
 
 .mention.wrapper_f61d60, .newMessagesBar__0f481 {
 	color: #EAEAEA;
-	background-color: hsl(227, calc(1 * 49%), 54%);
+	background-color: hsl(227, calc(1 * 49%), 46%);
 }
 
 .attachmentLink {
@@ -53,7 +54,7 @@ remove a "/*" below to enable one
 }
 
 .reaction__23977 {
-	background-color: #2e3034 !important; /* rgba(85,85,85,1) !important; */
+	background-color: #303236 !important; /* rgba(85,85,85,1) !important; */
 	border-radius: 0.25rem;
 	border: none;
 	margin-right: 0.125rem;
@@ -64,7 +65,7 @@ remove a "/*" below to enable one
 }
 
 .visual-refresh .reaction__23977.reactionMe__23977 .reactionCount__23977 {
-	color: #bdbdbd !important;
+	color: #eee !important;
 }
 
 .reactionLarge.emoji {
@@ -72,16 +73,36 @@ remove a "/*" below to enable one
     height: 1.33rem;
 }
 
-
+/*
 .visual-refresh {
-    & .markup__75297:hover code, & .reaction__23977 {
+    & .markup__75297:hover code {
         background: var(--custom-dark-hover) !important;
-    }
+    }    
+}
+*/
+
+.visual-refresh .reaction__23977.reactionMe__23977 {
+    background-color: #3f425c !important;
+    border: 0.12rem solid !important;
+    border-color: #5860d9 !important;
+    border-radius: 0.45rem;
+    color: white !important;
 }
 
-.message__5126c:hover {
-	background: #313236 !important;
+.visual-refresh .message__5126c:hover .reaction__23977 {
+    background-color: #2d2f33 !important;
 }
+
+.visual-refresh .message__5126c:hover .reaction__23977.reactionMe__23977 {
+    background-color: #3f425c !important;
+}
+
+.message__5126c:not(.mentioned__5126c):hover {
+	background: var(--background-message-hover) !important;
+}
+
+
+
 
 
 /* ================================ profile.css ======================== */
