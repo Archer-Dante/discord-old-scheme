@@ -1,9 +1,9 @@
 /**
-  * @name OldCord
+  * @name Old Discord Theme (based on OldCord)
   * @version 1.0
-  * @author @milbit
-  * @source https://github.com/milbits/oldcord
-  * @description Restores discord's 2020 UI
+  * @author @archerndate
+  * @source https://github.com/Archer-Dante/discord-old-scheme + https://github.com/milbits/oldcord
+  * @description Restores discord's pre-2025 UI and colors
 */
 
 @import url("https://milbits.github.io/oldcord/src/components/vars.css");
@@ -34,10 +34,6 @@ remove a "/*" below to enable one
 	--background-primary: #34363a !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
 	--background-secondary: #303136 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
 	--brand-experiment: #fff !important;
-	--blurple: #fff !important;
-	--bg-brand: #fff !important;
-	/* --background-tertiary: #fff !important; */
-	--brand-500: #fff !important;
 }
 
 .botTagRegular__82f07 {
@@ -138,12 +134,14 @@ remove a "/*" below to enable one
 
 
 
-/*
+
 
 [class*="experimentWrapper"] > div:nth-child(2) > div:nth-child(3) {
 	left: 0px;
 	position: absolute;
 }
+
+/*
 
 [id^="popout"] [class*="picker"] {
 	background-color: #333438;
