@@ -43,14 +43,16 @@ remove a "/*" below to enable one
 	color: var(--white);
 }
 
-.mention.wrapper_f61d60, .newMessagesBar__0f481 {
-	color: #EAEAEA;
-	background-color: hsl(227, calc(1 * 49%), 46%);
+.mention.wrapper_f61d60, .newMessagesBar__0f481, .inlineElement__1464f, .wrapper_f61d60 {
+	color: #EDEDED;
+	background-color: #48538e ; /* hsl(227, calc(1 * 49%), 42%); */
+	border-radius: 0.225rem;
 }
+
 
 .attachmentLink {
 	color: #EAEAEA;
-	background-color: hsl(227, calc(1 * 49%), 37%);
+	background-color: hsl(227, calc(1 * 49%), 41%);
 }
 
 .reaction__23977 {
