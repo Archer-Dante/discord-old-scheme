@@ -34,6 +34,7 @@ remove a "/*" below to enable one
 	--background-primary: #34363a !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
 	--background-secondary: #303136 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
 	--brand-experiment: #fff !important;
+	--custom-dark-hover:  #2c2d32;
 }
 
 .botTagRegular__82f07 {
@@ -46,7 +47,41 @@ remove a "/*" below to enable one
 	background-color: hsl(227, calc(1 * 49%), 54%);
 }
 
+.attachmentLink {
+	color: #EAEAEA;
+	background-color: hsl(227, calc(1 * 49%), 37%);
+}
 
+.reaction__23977 {
+	background-color: #2e3034 !important; /* rgba(85,85,85,1) !important; */
+	border-radius: 0.25rem;
+	border: none;
+	margin-right: 0.125rem;
+	margin-bottom: 0.125rem;
+	/* padding-top: 0.125rem; */
+	/* padding-bottom: 0.125rem; */
+	
+}
+
+.visual-refresh .reaction__23977.reactionMe__23977 .reactionCount__23977 {
+	color: #bdbdbd !important;
+}
+
+.reactionLarge.emoji {
+    width: 1.33rem;
+    height: 1.33rem;
+}
+
+
+.visual-refresh {
+    & .markup__75297:hover code, & .reaction__23977 {
+        background: var(--custom-dark-hover) !important;
+    }
+}
+
+.message__5126c:hover {
+	background: #313236 !important;
+}
 
 
 /* ================================ profile.css ======================== */
