@@ -1,0 +1,181 @@
+/**
+  * @name OldCord
+  * @version 1.0
+  * @author @milbit
+  * @source https://github.com/milbits/oldcord
+  * @description Restores discord's 2020 UI
+*/
+
+@import url("https://milbits.github.io/oldcord/src/components/vars.css");
+@import url("https://milbits.github.io/oldcord/src/components/color.css");
+@import url("https://milbits.github.io/oldcord/src/components/imgs.css");
+@import url("https://milbits.github.io/oldcord/src/components/other.css");
+/* @import url("https://milbits.github.io/oldcord/src/components/profile.css"); */
+@import url("https://milbits.github.io/oldcord/src/components/redesign.css");
+
+
+/*
+Addons
+remove a "/*" below to enable one
+*/
+
+/*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
+/*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
+/* @import url("https://milbits.github.io/oldcord/src/components/showEffects.css"); */
+
+/* Options */
+
+:root {
+	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
+	--reaction-animation: 1;
+	--channels-default: #90969d !important;
+	--background-mentioned: #4d473a !important; /* hsla(38, calc(1 * 96%), 54%, 0.151) !important; */
+	--background-mentioned-hover: #4d4638 !important; /* hsla(38, calc(1 * 96%), 44%, 0.178) !important; */
+	--background-primary: #34363a !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
+	--background-secondary: #303136 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */
+	--brand-experiment: #fff !important;
+	--blurple: #fff !important;
+	--bg-brand: #fff !important;
+	/* --background-tertiary: #fff !important; */
+	--brand-500: #fff !important;
+}
+
+.botTagRegular__82f07 {
+	background: hsl(227, calc(1 * 49%), 54%);
+	color: var(--white);
+}
+
+.mention.wrapper_f61d60, .newMessagesBar__0f481 {
+	color: #EAEAEA;
+	background-color: hsl(227, calc(1 * 49%), 54%);
+}
+
+
+
+
+/* ================================ profile.css ======================== */
+
+
+/* ================================ showEffects.css ======================== */
+
+
+
+
+
+/* ================================ custom ======================== */
+
+
+/*
+
+[class^="upperContainer__"] [class^="children__"] {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: 0px;
+}
+
+[class^="children__"] [class^="topic__"] {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 60%;
+}
+
+[class^="sidebarList_"], [class^="sidebarList_"] > [class^="container"] {
+	background-color: #303136 ;
+}
+
+[class^="containerDefault"] [class^="link"]{
+	color: #8b8e94
+}
+
+[class*="selected"] > [class*="selectedChannel"] > div > a {
+	background-color: #424449;
+}
+
+
+[class*="chatContent"] > div, [class*="chatContent"] > form  {
+	background-color: #34363a;
+}
+
+
+
+[id^="popout"] [class*="container"], [id^="popout"] [class*="outer"]{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px !important;
+	padding-bottom: 0px;
+}
+
+[id^="popout"] [class*="outer"]{
+	background-color: #303135;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/*
+[id^="popout"] [class*="header"] > [class*="avatar"] {
+	position: relative;
+	left: 85px;
+	padding-top: 30px;
+}
+*/
+
+/*
+[class*="experimentWrapper"] [class*="buttonSection"] [class*="attachedCaretButtonContainer"] div:nth-child(3) {
+	display: none;
+}
+*/
+
+
+
+
+
+
+/*
+
+[class*="experimentWrapper"] > div:nth-child(2) > div:nth-child(3) {
+	left: 0px;
+	position: absolute;
+}
+
+[id^="popout"] [class*="picker"] {
+	background-color: #333438;
+}
+
+[id^="chat-messages"]:hover {
+	background-color: #3d3f45;
+}
+
+[class^="mention"], [class^="botTag"], [class^="markup"] [class^="wrapper"], [class^="channelMention"], [class^="repliedTextPreview"] [class*="roleMention"] {
+	color: #EEE;
+	background-color: #494d8c;
+	border-radius: 5px;
+}
+
+[class*="newMessagesBar"] {
+	color: #EEE;
+	background-color: rgba(80,80,230,1.0);
+}
+
+
+*/
+
+
+/*
+
+[class*=mentioned] {
+	background-color: #4b463e;
+}
+
+[class*=mentioned]:hover {
+	background-color: #544d42;
+}
+
+*/
