@@ -2,257 +2,15 @@
   * @name Old Discord Theme (based on OldCord)
   * @version 1.0
   * @author @archerndate
-  * @source https://github.com/Archer-Dante/discord-old-scheme + https://github.com/milbits/oldcord
+  * @source https://github.com/Archer-Dante/discord-old-scheme + https://github.com/milbits/oldcord + https://github.com/FrCynda/NewerOldCord
   * @description Restores discord's pre-2025 UI and colors
 */
-
-@import url("https://milbits.github.io/oldcord/src/components/vars.css");
-@import url("https://milbits.github.io/oldcord/src/components/color.css");
-@import url("https://milbits.github.io/oldcord/src/components/imgs.css");
-@import url("https://milbits.github.io/oldcord/src/components/other.css");
-/* @import url("https://milbits.github.io/oldcord/src/components/profile.css"); */
-@import url("https://milbits.github.io/oldcord/src/components/redesign.css");
-
-
-/*
-Addons
-remove a "/*" below to enable one
-*/
-
-/*@import url("https://milbits.github.io/oldcord/src/components/oldEmojis.css");*/
-/*@import url("https://milbits.github.io/oldcord/src/components/oldContext.css");*/
-/* @import url("https://milbits.github.io/oldcord/src/components/showEffects.css"); */
-
-/* Options */
-
-:root {
-	/* Re-adds the animation for reactions. Might look weird | 0 - off | 1 - on*/
-	--reaction-animation: 1;
-	--channels-default: #90969d !important;
-	--background-mentioned: #4f493b !important; /* hsla(38, calc(1 * 96%), 54%, 0.151) !important; */
-	--background-mentioned-hover: #4d4639 !important; /* hsla(38, calc(1 * 96%), 44%, 0.178) !important; */
-	--background-primary: #363a3f !important; /* hsl(220, calc(1 * 7%), 23%) !important; */ /* 34363a */
-	--background-secondary: #2f3137 !important; /* hsl(220, calc(1 * 7%), 23%) !important; */ /* 303136 */
-	--brand-experiment: #fff !important;
-	--custom-dark-hover:  #2f2f33 ; /* 2c2d32 343539 */
-	--background-message-hover: #04040512 !important;
-}
-
-.botTagRegular__82f07 {
-	background: hsl(227, calc(1 * 49%), 54%);
-	color: var(--white);
-}
-
-.mention.wrapper_f61d60, .newMessagesBar__0f481, .inlineElement__1464f, .wrapper_f61d60 {
-	color: #EDEDED;
-	background-color: #48538e ; /* hsl(227, calc(1 * 49%), 42%); */
-	border-radius: 0.225rem;
-}
-
-
-.attachmentLink {
-	color: #EAEAEA;
-	background-color: hsl(227, calc(1 * 49%), 41%);
-}
-
-.reaction__23977 {
-	background-color: #303236 !important; /* rgba(85,85,85,1) !important; */
-	border-radius: 0.25rem;
-	border: none;
-	margin-right: 0.125rem;
-	margin-bottom: 0.125rem;
-	/* padding-top: 0.125rem; */
-	/* padding-bottom: 0.125rem; */
-	
-}
-
-.visual-refresh .reaction__23977.reactionMe__23977 .reactionCount__23977 {
-	color: #eee !important;
-}
-
-.reactionLarge.emoji {
-    width: 1.33rem;
-    height: 1.33rem;
-}
-
-/*
-.visual-refresh {
-    & .markup__75297:hover code {
-        background: var(--custom-dark-hover) !important;
-    }    
-}
-*/
-
-.visual-refresh .reaction__23977.reactionMe__23977 {
-    background-color: #3f425c !important;
-    border: 0.12rem solid !important;
-    border-color: #5860d9 !important;
-    border-radius: 0.45rem;
-    color: white !important;
-}
-
-.visual-refresh .message__5126c:hover .reaction__23977 {
-    background-color: #2d2f33 !important;
-}
-
-.visual-refresh .message__5126c:hover .reaction__23977.reactionMe__23977 {
-    background-color: #3f425c !important;
-}
-
-.message__5126c:not(.mentioned__5126c):hover {
-	background: var(--background-message-hover) !important;
-}
-
-
-
-
-
-/* ================================ profile.css ======================== */
-
-
-/* ================================ showEffects.css ======================== */
-
-
-
-
-
-/* ================================ custom ======================== */
-
-
-/*
-
-[class^="upperContainer__"] [class^="children__"] {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    width: 0px;
-}
-
-[class^="children__"] [class^="topic__"] {
-    text-overflow: ellipsis;
-    overflow: hidden;
-    max-width: 60%;
-}
-
-[class^="sidebarList_"], [class^="sidebarList_"] > [class^="container"] {
-	background-color: #303136 ;
-}
-
-[class^="containerDefault"] [class^="link"]{
-	color: #8b8e94
-}
-
-[class*="selected"] > [class*="selectedChannel"] > div > a {
-	background-color: #424449;
-}
-
-
-[class*="chatContent"] > div, [class*="chatContent"] > form  {
-	background-color: #34363a;
-}
-
-
-
-[id^="popout"] [class*="container"], [id^="popout"] [class*="outer"]{
-	margin: 0px;
-	padding: 0px;
-	padding-top: 0px !important;
-	padding-bottom: 0px;
-}
-
-[id^="popout"] [class*="outer"]{
-	background-color: #303135;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-/*
-[id^="popout"] [class*="header"] > [class*="avatar"] {
-	position: relative;
-	left: 85px;
-	padding-top: 30px;
-}
-*/
-
-/*
-[class*="experimentWrapper"] [class*="buttonSection"] [class*="attachedCaretButtonContainer"] div:nth-child(3) {
-	display: none;
-}
-*/
-
-
-
-
-
-
 
 
 [class*="experimentWrapper"] > div:nth-child(2) > div:nth-child(3) {
 	left: 0px;
 	position: absolute;
 }
-
-/*
-
-[id^="popout"] [class*="picker"] {
-	background-color: #333438;
-}
-
-[id^="chat-messages"]:hover {
-	background-color: #3d3f45;
-}
-
-[class^="mention"], [class^="botTag"], [class^="markup"] [class^="wrapper"], [class^="channelMention"], [class^="repliedTextPreview"] [class*="roleMention"] {
-	color: #EEE;
-	background-color: #494d8c;
-	border-radius: 5px;
-}
-*/
-[class*="newMessagesBar"] {
-	color: #EEE;
-	background-color: rgba(80,80,230,1.0);
-}
-
-
-
-
-
-/*
-
-[class*=mentioned] {
-	background-color: #4b463e;
-}
-
-[class*=mentioned]:hover {
-	background-color: #544d42;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* from https://github.com/FrCynda/NewerOldCord */
-
-
 
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--autocomplete-bg: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
@@ -905,12 +663,13 @@ body {
 	
 	.listItem__650eb {
 		width: 80px;
+		height: 44px;
 	}
 	.wrapper_cc5dd2,
 	.childWrapper__6e9f8,
 	.icon__6e9f8 {
-		width: 50px;
-		height: 50px;
+		width: 53px;
+		height: 53px;
 	}
 	.wrapper_cc5dd2 > .svg_cc5dd2 {
 		inset: auto;
@@ -1862,7 +1621,7 @@ body {
 		gap: unset;
 		justify-content: center;
 		bottom: 35px;
-		left: -12px;
+		left: -52px; /* туть */
 		z-index: 3001;
 		-webkit-app-region: no-drag !important;
 		.winButton_c38106 {
